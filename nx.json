@@ -18,6 +18,19 @@
     ],
     "sharedGlobals": []
   },
+  "targetDefaults": {
+    "test": {
+      "options": {
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    }
+  },
   "plugins": [
     {
       "plugin": "@nx/webpack/plugin",
